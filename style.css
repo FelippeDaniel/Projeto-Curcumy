@@ -1,0 +1,90 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo-extrato {
+
+    height: 300px;
+    margin-left: 50px;
+}
+
+p {
+
+    color: aliceblue;
+
+}
+
+button {
+
+    color: white;
+    background-color: rgb(124, 82, 49);
+    border-radius: 3px;
+    border: none;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 30px;
+
+
+
+}
+
+.logo-curcumy {
+    height: 300px;
+
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px;
+    height: 100vh;
+}
+
+.caixa-principal {
+
+    width: 40%;
+}
+
+.caixa-video {
+
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+
+video {
+    width: 100vw;
+
+}
+
+.mascara {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    ;
+    position: fixed;
+    top: 0;
+
+}
+
+.whatsapp {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    
+}
+
+.whatsapp img {
+    height: 60px;
+    margin-right: 100px;
+    cursor: pointer;
+
+}
+
